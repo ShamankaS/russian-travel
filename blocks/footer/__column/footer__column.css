@@ -1,0 +1,22 @@
+.footer__column {
+    display: grid;
+    column-gap: 18px;
+    grid-template-columns: repeat(5, max-content);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* здесь использую точку 680px, а не 425px, т.к. примерно в этой точке
+происходит перелом и copyright начинает залезать на блок навигации.
+Обговорить с дизайнером стиль footer в 425-680px*/
+
+@media screen and (max-width: 680px) {
+    .footer__column {
+        grid-auto-flow: column;
+        grid-template-rows: repeat(5, max-content);
+        row-gap: 32px;
+        justify-self: start;
+        margin-bottom: 48px;
+    }
+}
