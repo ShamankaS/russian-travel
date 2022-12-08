@@ -1,0 +1,26 @@
+.header__lang-link {
+    margin-right: 18px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    text-decoration-line: none;
+}
+
+.header__lang-link:last-child {
+    margin-right: 0;
+}
+
+/*лучше реализовать через JS, ниже временная заглушка*/
+.header__lang-link:active {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 425px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
