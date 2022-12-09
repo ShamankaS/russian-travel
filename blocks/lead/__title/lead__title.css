@@ -1,0 +1,21 @@
+.lead__title {
+    margin: 0 0 32px;
+    max-width: 720px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*т.к. в макетах 768px-1280px конкретное значение ширины lead__title
+использую точку 720px как точку перехода из одного состояния в другой для lead__title и lead__subtitle*/
+@media screen and (max-width: 720px) {
+    .lead__title {
+        max-width: 288px;
+        margin-bottom: 16px;
+        font-size: 40px;
+        line-height: 44px;
+    }
+}
