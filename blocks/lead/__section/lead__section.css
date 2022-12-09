@@ -1,0 +1,17 @@
+.lead__section {
+    width: 928px;
+}
+
+@media screen and (min-width: 1280px) {
+    .lead__section {
+        width: 984px;
+    }
+}
+
+/*использую точку 928px (взято из размера изображения в макете для 1024px),
+чтобы в переходном состоянии lead__section с изображением и надписью занимали всю ширину страницы*/
+@media screen and (max-width: 928px) {
+    .lead__section {
+        width: 100%;
+    }
+}

@@ -13,7 +13,9 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+/*использую точку 675px, т.к. в этой точке происходит перелом и
+footer__copyright начинает залезать на блок навигации footer__column*/
+@media screen and (max-width: 675px) {
     .footer {
         margin-left: 16px;
         flex-direction: column;
