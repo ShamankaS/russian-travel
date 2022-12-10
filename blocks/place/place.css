@@ -1,0 +1,39 @@
+.place {
+    display: grid;
+    grid-template-columns: 440px 456px;
+    grid-template-rows: repeat (2, max-content);
+    grid-template-areas:
+        "title website"
+        "image paragraph";
+    column-gap: 32px;
+    row-gap: 48px;
+}
+
+@media screen and (min-width: 1280px) {
+    .place {
+        grid-template-columns: 460px 484px;
+        column-gap: 40px;
+    }
+}
+
+@media screen and (max-width: 928px) {
+    .place {
+        grid-template-columns: 340px 352px;
+        column-gap: 28px;
+    }
+}
+
+/* использую точку 720px, т.к. это минимальная ширина блока place,
+состаящая из двух колонок */
+@media screen and (max-width: 720px) {
+    .place {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat (4, max-content);
+        grid-template-areas:
+            "title"
+            "website"
+            "image"
+            "paragraph";
+        row-gap: 32px;
+    }
+}

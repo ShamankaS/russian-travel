@@ -1,0 +1,39 @@
+.place__paragraph {
+    grid-area: paragraph;
+    display: flex;
+    flex-direction: column;
+    row-gap: 27px;
+    font-size: 0px;
+}
+
+/* в макете для 1024px и 1280px 26-27px gap - mb опечатка - если так, убрать */
+@media screen and (min-width: 1024px) {
+    .place__paragraph:nth-child(2n) {
+        row-gap: 26px;
+    }
+}
+
+/* в макете для 1024px и 1280px 26-27px gap - mb опечатка - если так, убрать */
+@media screen and (min-width: 1280px) {
+    .place__paragraph {
+        row-gap: 26px
+    }
+
+    .place__paragraph:nth-child(3) {
+        row-gap: 27px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        row-gap: 25px;
+    }
+}
+
+/* использую точку 720px, т.к. это минимальная ширина блока place,
+состаящая из двух колонок */
+@media screen and (max-width: 720px) {
+    .place__paragraph {
+        margin: 0 16px;
+    }
+}

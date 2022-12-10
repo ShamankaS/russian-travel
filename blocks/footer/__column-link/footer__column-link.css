@@ -1,11 +1,15 @@
 .footer__column-link {
+    /* position: absolute; */
     text-decoration: none;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
     color: #FFFFFF;
     text-align: left;
+}
+
+.footer__column-link:hover {
+    opacity: 0.8;
 }
 
 /*использую точку 675px, т.к. в этой точке происходит перелом и
