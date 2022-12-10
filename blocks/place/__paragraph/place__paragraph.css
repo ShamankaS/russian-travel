@@ -16,7 +16,7 @@
 /* в макете для 1024px и 1280px 26-27px gap - mb опечатка - если так, убрать */
 @media screen and (min-width: 1280px) {
     .place__paragraph {
-        row-gap: 26px
+        row-gap: 26px;
     }
 
     .place__paragraph:nth-child(3) {
