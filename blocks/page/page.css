@@ -7,4 +7,9 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     background-color: #2A2C2F;
+    color: #FFFFFF;
+
+    display: grid;
+    grid-template-columns: minmax(min-content, 1fr);
+    grid-template-rows: repeat(7, auto);
 }

@@ -1,0 +1,21 @@
+.main {
+    display: grid;
+    margin: 0;
+    padding-bottom: 92px;
+    justify-items: center;
+    row-gap: 92px;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        row-gap: 88px;
+        padding-bottom: 92px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .main {
+        row-gap: 64px;
+        padding-bottom: 64px;
+    }
+}
