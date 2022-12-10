@@ -1,13 +1,12 @@
 .lead__caption {
     margin: 8px 0 0;
-    justify-self: flex-start;
+    align-self: flex-start;
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
     line-height: 14px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    color: #FFFFFF;
 }
 
 /*использую точку 928px (взято из размера изображения в макете для 1024px),

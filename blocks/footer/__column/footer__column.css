@@ -15,6 +15,6 @@ footer__copyright начинает залезать на блок навигац
         grid-template-rows: repeat(5, max-content);
         row-gap: 32px;
         justify-self: start;
-        margin-bottom: 48px;
+        padding-bottom: 48px;
     }
 }

@@ -1,0 +1,32 @@
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 14px;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 1280px) {
+    .photo-grid {
+        grid-template-columns: repeat(4, 284px);
+        gap: 16px;
+    }
+}
+
+/* использую 928px (ширина блока с тремя картинками 300px и gap 14px),
+чтобы изображения не выходили за пределы страницы и сетка не ломалась */
+@media screen and (max-width: 928px) {
+    .photo-grid {
+        grid-template-columns: repeat(2, 352px);
+        gap: 16px;
+    }
+}
+
+/* использую 720px (ширина блока с двумя  картинками 352px и gap 16px),
+чтобы изображения не выходили за пределы страницы и сетка не ломалась*/
+@media screen and (max-width: 720px) {
+    .photo-grid {
+        grid-template-columns: repeat(1, 288px);
+        gap: 12px;
+        font-size: 12px;
+    }
+}
