@@ -1,5 +1,6 @@
 .footer__column {
     display: grid;
+    position: relative;
     column-gap: 18px;
     grid-template-columns: repeat(5, max-content);
     list-style: none;
@@ -12,9 +13,8 @@ footer__copyright начинает залезать на блок навигац
 @media screen and (max-width: 675px) {
     .footer__column {
         grid-auto-flow: column;
-        grid-template-rows: repeat(5, max-content);
+        grid-template-rows: repeat(5, 24px);
         row-gap: 32px;
-        justify-self: start;
         padding-bottom: 48px;
     }
 }

@@ -1,5 +1,7 @@
 .page {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 0px;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-sizing: grayscale;
@@ -8,8 +10,7 @@
     -moz-text-size-adjust: 100%;
     background-color: #2A2C2F;
     color: #FFFFFF;
-
     display: grid;
     grid-template-columns: minmax(min-content, 1fr);
-    grid-template-rows: repeat(7, auto);
+    grid-template-rows: repeat(auto-fit, auto);
 }

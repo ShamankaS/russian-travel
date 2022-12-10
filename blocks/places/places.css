@@ -1,0 +1,11 @@
+.places {
+    display: grid;
+    gap: 80px;
+    grid-template-rows: repeat(auto-fit, max-content);
+}
+
+@media screen and (max-width: 425px) {
+    .places {
+        gap: 50px;
+    }
+}
