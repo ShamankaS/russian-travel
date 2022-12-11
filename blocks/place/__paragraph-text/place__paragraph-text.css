@@ -5,9 +5,7 @@
     line-height: 163%;
 }
 
-/* использую точку 720px, т.к. это минимальная ширина блока place,
-состаящая из двух колонок */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
     .place__paragraph-text {
         font-size: 16px;
     }

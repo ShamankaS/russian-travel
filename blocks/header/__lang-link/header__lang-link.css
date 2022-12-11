@@ -18,12 +18,6 @@
     opacity: 0.8;
 }
 
-/*лучше реализовать через JS, ниже временная заглушка*/
-.header__lang-link:active {
-    text-decoration: underline;
-}
-
-
 @media screen and (max-width: 425px) {
     .header__lang-link {
         top: 14px;

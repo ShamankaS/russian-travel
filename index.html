@@ -13,20 +13,20 @@
         <header class="header">
             <div class="header__logo"></div>
             <div>
-                <a class="header__lang-link" href="#">Ru</a>
+                <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
                 <a class="header__lang-link" href="#">En</a>
             </div>
         </header>
         <main class="main">
             <div class="alignment">
                 <section class="lead">
-                    <h1 class="lead__title">Путешествия по России</h1>
+                    <h1 class="lead__title">Путешествия по&#160;России</h1>
                     <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
-                    <div class="lead__section">
+                    <figure class="lead__section">
                         <img src="./blocks/lead/__image/lead-polka.jpg" class="lead__image"
                             alt="Карта путешествия по России">
-                        <p class="lead__caption">ваша полка — верхняя</p>
-                    </div>
+                        <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+                    </figure>
                 </section>
 
                 <section class="intro">
@@ -57,7 +57,7 @@
                     </ul>
                 </section>
             </div>
-            <div class="photo-grid">
+            <section class="photo-grid">
                 <img src='./images/__item.jpg' class="photo-grid__item" alt="Фотография №1">
                 <img src='./images/__item-1.jpg' class="photo-grid__item" alt="Фотография №2">
                 <img src='./images/__item-2.jpg' class="photo-grid__item" alt="Фотография №3">
@@ -70,14 +70,14 @@
                 <img src='./images/__item-9.jpg' class="photo-grid__item" alt="Фотография №10">
                 <img src='./images/__item-10.jpg' class="photo-grid__item" alt="Фотография №11">
                 <img src='./images/__item-11.jpg' class="photo-grid__item" alt="Фотография №12">
-            </div>
+            </section>
             <section class="places">
                 <div class="place">
                     <h2 class="place__title">Куршская коса</h2>
                     <img src="./blocks/place/__img/image/place-kosa.jpg" class="place__img"
                         alt="Фотография Куршской косы">
                     <div class="place__website">
-                        <h3 class="place__website-url-heading">URL</h3>
+                        <h3 class="place__website-url-heading">url</h3>
                         <a class="place__website-link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
                     </div>
                     <div class="place__paragraph">
@@ -100,7 +100,7 @@
                     <img src="./blocks/place/__img/image/place-kolsky.jpg" class="place__img"
                         alt="Фотография Кольского полуострова">
                     <div class="place__website">
-                        <h3 class="place__website-url-heading">URL</h3>
+                        <h3 class="place__website-url-heading">url</h3>
                         <a class="place__website-link"
                             href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
                             target="_blank">National Geographic</a>
@@ -122,10 +122,9 @@
                 </div>
                 <div class="place">
                     <h2 class="place__title">Алтай</h2>
-                    <img src="./blocks/place/__img/image/place-altai.jpg" class="place__img"
-                        alt="Лесной пейзаж">
+                    <img src="./blocks/place/__img/image/place-altai.jpg" class="place__img" alt="Лесной пейзаж">
                     <div class="place__website">
-                        <h3 class="place__website-url-heading">URL</h3>
+                        <h3 class="place__website-url-heading">url</h3>
                         <a class="place__website-link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
                             target="_blank">YouTube</a>
                     </div>
@@ -147,7 +146,7 @@
                     <img src="./blocks/place/__img/image/place-winter-baikal.jpg" class="place__img"
                         alt="Фотография Зимнего Байкала">
                     <div class="place__website">
-                        <h3 class="place__website-url-heading">URL</h3>
+                        <h3 class="place__website-url-heading">url</h3>
                         <a class="place__website-link" href="https://vk.com/baikalmile"
                             target="_blank">https://vk.com/baikalmile</a>
                     </div>
@@ -167,7 +166,7 @@
                     <img src="./blocks/place/__img/image/place-karelia.jpg" class="place__img"
                         alt="Лесной пейзаж в Карелии">
                     <div class="place__website">
-                        <h3 class="place__website-url-heading">URL</h3>
+                        <h3 class="place__website-url-heading">url</h3>
                         <a class="place__website-link" href="http://vodlozero.ru"
                             target="_blank">http://vodlozero.ru/</a>
                     </div>
@@ -184,9 +183,8 @@
                 </div>
             </section>
             <section class="cover">
-                <div class="cover__overlay"><img class="cover__background"
-                        src="./blocks/cover/__background/cover-trains.jpg"
-                        alt="Пейзаж с железнодорожными путями"></div>
+                <img class="cover__background" src="./blocks/cover/__background/cover-trains.jpg"
+                    alt="Пейзаж с железнодорожными путями">
                 <div class="cover__text">
                     <a class="cover__text-title" href="https://stampsy.com/na-elektrichkakh-do-baikala"
                         target="_blank">До Байкала «на собаках»</a>

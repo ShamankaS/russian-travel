@@ -1,7 +1,7 @@
 .place {
     display: grid;
     grid-template-columns: 440px 456px;
-    grid-template-rows: repeat (2, max-content);
+    grid-template-rows: repeat(2, max-content);
     grid-template-areas:
         "title website"
         "image paragraph";
@@ -28,7 +28,7 @@
 @media screen and (max-width: 720px) {
     .place {
         grid-template-columns: 100%;
-        grid-template-rows: repeat (4, max-content);
+        grid-template-rows: repeat(4, max-content);
         grid-template-areas:
             "title"
             "website"
