@@ -1,11 +1,8 @@
 # Travel to Russia
 
-<<<<<<< Updated upstream
+
 ### Intro
 
-=======
-**Intro**
->>>>>>> Stashed changes
 Travel to Russia is a web-page about interesting places in Russia for tourism.
 It contains interesting facts and statistics, as well as many beautiful photos from other people's travels.
 
@@ -20,21 +17,9 @@ It contains interesting facts and statistics, as well as many beautiful photos f
 * grid containers;
 * interactive links on mouse hover.
 
-<<<<<<< Updated upstream
-=======
-**Used technologies**
-
-* grid containers;
-* interactive links on mouse hover.
-
->>>>>>> Stashed changes
 ### Project
 
 Frontend (HTML, CSS)
 
 ### TODO
-<<<<<<< Updated upstream
 1. Updating web-site content.
-=======
-1. Updating web-site content.
->>>>>>> Stashed changes
