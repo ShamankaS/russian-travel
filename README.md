@@ -1,10 +1,9 @@
-# Travel to Russia
-
+# Путешествия по России
 
 ### Intro
 
-Travel to Russia is a web-page about interesting places in Russia for tourism.
-It contains interesting facts and statistics, as well as many beautiful photos from other people's travels.
+Путешествия по России - это одностраничный сайт об интересных местах России для туризма.
+Данный проект был выполнен в рамках обучения по курсу "Веб-разработчик" в Я.Практикуме для отработки навыков адаптивной вёрстки.
 
 [Link on GitHub Pages](https://shamankas.github.io/russian-travel/)
 
@@ -14,12 +13,13 @@ It contains interesting facts and statistics, as well as many beautiful photos f
 
 ### Used technologies
 
-* grid containers;
-* interactive links on mouse hover.
+* адаптивная верстка и grid сетка;
+* интерактивные объекты (hover).
 
 ### Project
 
-Frontend (HTML, CSS)
+Frontend (HTML5, CSS).
 
 ### TODO
-1. Updating web-site content.
+
+Добавить мультиязычность (ru, en).

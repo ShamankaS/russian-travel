@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
     <link rel="stylesheet" href="./pages/index.css">
     <title>Путешествия по России</title>
 </head>
@@ -12,10 +16,11 @@
     <div class="page">
         <header class="header">
             <div class="header__logo"></div>
-            <div>
+            <!-- TODO: add internationalization -->
+            <!-- <div>
                 <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
                 <a class="header__lang-link" href="#">En</a>
-            </div>
+            </div> -->
         </header>
         <main class="main">
             <div class="alignment">
@@ -186,7 +191,7 @@
 
                 <img class="cover__background" src="./blocks/cover/__background/cover-trains.jpg"
                     alt="Пейзаж с железнодорожными путями">
-                    <div class="cover__overlay"></div>
+                <div class="cover__overlay"></div>
                 <div class="cover__text">
                     <a class="cover__text-title" href="https://stampsy.com/na-elektrichkakh-do-baikala"
                         target="_blank">До Байкала «на собаках»</a>
@@ -217,7 +222,7 @@
                     </li>
                 </ul>
             </nav>
-            <p class="footer__copyright">&#169; 2022. Таня Сляднева</p>
+            <p class="footer__copyright">&#169; 2023. Tatiana Slyadneva</p>
         </footer>
     </div>
 </body>
